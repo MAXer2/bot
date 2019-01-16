@@ -30,16 +30,20 @@ namespace WindowsFormsApplication2
             switch (textBox1.Text)
             {
                 case "Привет":
-                    richTextBox1.AppendText("Привет"+ "\n");
+                    richTextBox1.AppendText("Здравствуйте"+ "\n");
                     break;
                 case "Пока":
-                    richTextBox1.AppendText("Пока" + "\n");
+                    richTextBox1.AppendText("прощайте,сударь" + "\n");
                     break;
                 case "Как дела?":
                     richTextBox1.AppendText("норм" + "\n");
                     break;
                 case "ты даун":
                     richTextBox1.AppendText("сам ты даун " + "\n");
+                    break;
+
+                case "Расскажи анекдот":
+                    richTextBox1.AppendText("Самую большую щуку весом в 50 килограмм, поймал рыболов из Рязани. Это на 7 кг больше, чем нап@здел предыдущий рекордсмен." + "\n");
                     break;
 
             }
@@ -58,6 +62,17 @@ namespace WindowsFormsApplication2
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form2 dsfgdfg = new Form2();
+            dsfgdfg.ShowDialog();
         }
     }
 }
