@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,13 +20,28 @@ namespace WindowsFormsApplication2
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            richTextBox1.Lines = File.ReadAllLines("../../2131.txt");
+            /*textBox1.Text = "Ваня, брось рисовать";
+            textBox1.Size = new Size(450, 50);
 
+            button.BackColor = Color.Maroon;
+            button.Font = new Font("Arial", 12);*/
         }
 
         private void butt_Click(object sender, EventArgs e)
         {
+            //MessageBox.Show("Ваня, да утихни уже!!!");
+
             richTextBox1.AppendText(textBox1.Text + "\n");
 
+            /*if (textBox1.Text == "Привет")
+            {
+                richTextBox1.AppendText("Здравствуйте" + "\n");
+            }
+            else if (textBox1.Text == "Как дела?")
+            {
+                richTextBox1.AppendText("норм" + "\n");
+            }*/
 
             switch (textBox1.Text)
             {
@@ -73,6 +89,11 @@ namespace WindowsFormsApplication2
         {
             Form2 dsfgdfg = new Form2();
             dsfgdfg.ShowDialog();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            MessageBox.Show("Тварь!");
         }
     }
 }
