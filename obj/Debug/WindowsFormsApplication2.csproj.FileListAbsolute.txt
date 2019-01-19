@@ -8,3 +8,14 @@ D:\Students\АИСТбд-21\Климов_Стас\WindowsFormsApplication2\Windo
 D:\Students\АИСТбд-21\Климов_Стас\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
 D:\Students\АИСТбд-21\Климов_Стас\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
 D:\Students\АИСТбд-21\Климов_Стас\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form2.resources
+C:\Users\student\Desktop\bot-master\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\student\Desktop\bot-master\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\student\Desktop\bot-master\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\student\Desktop\bot-master\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\student\Desktop\bot-master\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\student\Desktop\bot-master\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\bot-master\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\student\Desktop\bot-master\obj\Debug\WindowsFormsApplication2.Form2.resources
+C:\Users\student\Desktop\bot-master\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\student\Desktop\bot-master\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\student\Desktop\bot-master\bin\Debug\Bunifu_UI_v1.52.dll
